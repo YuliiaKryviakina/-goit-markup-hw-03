@@ -96,19 +96,34 @@ img {
 }
 
 .header-tittle {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 64px;
+
     color: var(--light-text);
+
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
 }
 
 .header-button {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-color: var(--primary-brand-color);
+    border-radius: 6px;
+    padding: 16px 32px;
+    min-width: 169px;
+
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--light-text);
     background-color:var(--primary-brand-color);
     font-weight: 500;
     line-height: 1.19;    
+    
+    text-align: center;
 }
 
 .header-button:hover,
@@ -194,12 +209,19 @@ img {
 }
 
 .filters-btn {
+    display: inline-block;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    padding: 12px 24px;
+
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--primary-brand-color);
     background-color: var(--light-color);
     font-weight: 500;
     line-height: 1.5;
+    
+    text-align: center;
 }
 
 .filters-btn:hover,
